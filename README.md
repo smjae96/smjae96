@@ -36,6 +36,7 @@
 | 5 | [웹소켓 단계별 인가 추가와 순환 의존 해결](https://shy-repair-a36.notion.site/40bbf7756f81809eb0cdc0c27877f4f6) | 빈 순환 의존의 원인을 구분한 뒤 `@Lazy`로 최소 변경 |
 | 6 | [이용 제한의 서버 적용과 강제 로그아웃 도구 구현](https://shy-repair-a36.notion.site/40bbf7756f8180b0acf9f3e209c81555) | 판정을 서버 한 곳으로 모으고, 무효화 기준 시각으로 강제 로그아웃 |
 | 7 | [SMS 인증을 Redis로 다시 설계](https://shy-repair-a36.notion.site/sms-Redis-40bbf7756f8180d59369f073529a7c5b) | TTL · 원자적 증가로 삭제 배치 · 만료 비교 · 잠금 코드 제거 |
+| 8 | [서버를 늘리지 않고 도입한 단일 서버 무중단 배포](https://shy-repair-a36.notion.site/40cbf7756f81807fb6a4fc477d6f8177) | 이중화 대신 단일 서버 Blue/Green 제안 · 메모리 실측으로 사양 결정 → 배포 중 중단 없이 운영 |
 
 <br />
 
