@@ -91,11 +91,11 @@
     <td width="50%" valign="top">
       <h3>Funxtion</h3>
       <sub>Team Project · 경매형 중고거래 플랫폼</sub>
-      <p>팀 프로젝트에서 아래 백엔드 기능을 개발했습니다. (<a href="https://github.com/TeamFunxtion/fx-backend">fx-backend</a> · <a href="https://github.com/TeamFunxtion/fx-frontend">fx-frontend</a>)</p>
+      <p>팀 프로젝트에서 아래 기능을 <b>백엔드 API부터 프론트엔드 화면까지</b> 직접 개발했습니다. (<a href="https://github.com/TeamFunxtion/fx-backend">fx-backend</a> · <a href="https://github.com/TeamFunxtion/fx-frontend">fx-frontend</a>)</p>
       <ul>
-        <li>관심 상품 · 판매자 팔로우 API</li>
-        <li>WebSocket 기반 구매자 – 판매자 1:1 실시간 채팅</li>
-        <li>채팅방 안에서 진행하는 포인트 기반 안전거래</li>
+        <li>관심 상품 · 판매자 팔로우: API, 관심 상품 · 팔로워/팔로잉 목록 화면(무한 스크롤), 상품 상세의 팔로우 토글</li>
+        <li>WebSocket 기반 구매자 – 판매자 1:1 실시간 채팅: 채팅방 UI 설계 · 퍼블리싱, 읽음 처리, 안 읽은 메시지 수 표시</li>
+        <li>채팅방 안에서 진행하는 포인트 기반 안전거래: 서버 로직과 요청 · 수락 화면</li>
       </ul>
       <sub>Spring Boot · Spring Security · JWT · JPA · PostgreSQL · WebSocket · Next.js</sub>
     </td>
